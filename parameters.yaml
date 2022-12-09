@@ -1,4 +1,39 @@
-m1:
+random_forest:
   max_features: 2500
   min_df: 10
   n_estimators: 12
+
+lstm:
+  input_len: 100
+  lstm_size: 128
+  embedding_size: 64
+  dropout_rate: 0.3
+  activation_out: sigmoid
+  leraning_rate: 0.01
+  loss: binary_crossentropy
+  metric: acc
+  batch: 128
+  epoch: 8
+  verbose: 1
+
+lstm2:
+  input_len: 100
+  lstm_size: 128
+  embedding_size: 300
+  dropout_rate: 0.5
+  activation_out: sigmoid
+  leraning_rate: 0.01
+  loss: binary_crossentropy
+  metric: acc
+  batch: 128
+  epoch: 5
+  verbose: 1
+  recurrent_dropout: 0.3
+
+fast_text:
+  text_col: text
+  label: label
+  max_features: 5000
+  max_len: 500
+  verbose: 1
+  max_expoch: 3
