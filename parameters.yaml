@@ -1,2 +1,4 @@
-hello:
-- frankfurt
+m1:
+  MAX_FEATURES: 2500
+  MIN_DF: 10
+  N_ESTIMATORS: 12
