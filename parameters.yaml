@@ -1,4 +1,4 @@
 m1:
-  MAX_FEATURES: 2500
-  MIN_DF: 10
-  N_ESTIMATORS: 12
+  max_features: 2500
+  min_df: 10
+  n_estimators: 12
