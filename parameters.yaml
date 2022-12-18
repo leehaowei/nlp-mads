@@ -36,4 +36,21 @@ fast_text:
   max_features: 5000
   max_len: 500
   verbose: 1
-  max_expoch: 3
+  max_epoch: 3
+  learning_rate: 0.01
+  n_cycles: 3
+  cycle_len: 2
+  cycle_mult: 2
+
+bert:
+  text_col: text
+  label_col: label
+  max_features: 30000
+  max_len: 500
+  verbose: 1
+  pre_trained: bert
+  batch: 6
+  max_epoch: 1
+  n_cycles: 3
+  cycle_len: 1
+  cycle_mult: 1
