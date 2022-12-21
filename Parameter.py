@@ -6,6 +6,9 @@ class M1Param:
     max_features: int
     min_df: int
     n_estimators: int
+    max_depth: int
+    min_samples_leaf: int
+    min_samples_split: int
 
 
 @dataclass

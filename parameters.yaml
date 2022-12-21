@@ -1,7 +1,11 @@
 random_forest:
   max_features: 2500
   min_df: 10
-  n_estimators: 12
+#  n_estimators: 12
+  n_estimators: 804
+  max_depth: 156
+  min_samples_leaf: 1
+  min_samples_split: 16
 
 lstm:
   input_len: 100
